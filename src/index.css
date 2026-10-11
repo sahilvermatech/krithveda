@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Primary Green Palette */
+  --color-forest: #163627;
+  --color-deep-forest: #0D2419;
+  --color-moss: #1E5E3A;
+  --color-herbal-green: #2E7D32;
+  --color-light-green: #E8F5E9;
+  --color-green-tint: #EEF7EB;
+  
+  /* Secondary Yellowish Palette */
+  --color-yellowish-primary: #E5A91A;
+  --color-yellowish-amber: #D97706;
+  --color-yellowish-gold: #CA8A04;
+  --color-yellowish-warm: #F59E0B;
+  --color-yellowish-light: #FEF9C3;
+  --color-yellowish-soft: #FEF3C7;
+  --color-yellowish-tint: #FDF8E4;
+
+  /* Background Palette (Greenish and Yellowish) */
+  --color-bg-greenish: #EFF6EA;
+  --color-bg-yellowish: #FAF5DE;
+  --color-bg-canvas: #F4F7EB;
+  --color-cream: #FAF8EE;
+  --color-sand: #EFE8CE;
+  --color-turmeric: #D97706;
+  --color-earth: #37332C;
+  --color-whatsapp: #25D366;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #F3F7EB;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(206, 235, 198, 0.7) 0px, transparent 55%),
+    radial-gradient(at 100% 0%, rgba(254, 242, 192, 0.75) 0px, transparent 55%),
+    radial-gradient(at 50% 100%, rgba(253, 240, 180, 0.55) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(215, 240, 208, 0.5) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(254, 246, 205, 0.4) 0px, transparent 40%);
+  background-attachment: fixed;
+  color: #1F281E;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+}
+

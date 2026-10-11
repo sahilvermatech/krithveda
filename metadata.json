@@ -1,0 +1,6 @@
+{
+  "name": "Krithveda Naturals | Farm-Grown Herbal Care",
+  "description": "Chemical-free herbal hair oils, shampoos, powders, and pantry essentials grown on our own farm and crafted in small batches. Direct orders on WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
